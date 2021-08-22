@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI</title>
+    <!-- bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- font awesome icons  -->
+    <script src="https://kit.fontawesome.com/598f78624f.js" crossorigin="anonymous"></script>
+    <style>
+        .circle-1 {
+            position: absolute;
+            height: 28rem;
+            width: 28rem;
+            border-radius: 50%;
+            border: 3px solid rgba(84, 44, 104, 0.76);
+            right: -6rem;
+            top: -4rem;
+            overflow: hidden;
+        }
+
+        .circle-2 {
+            position: absolute;
+            height: 17rem;
+            width: 17rem;
+            border-radius: 50%;
+            border: 3px solid rgba(84, 44, 104, 0.76);
+            right: 4rem;
+            top: 11rem;
+            overflow: hidden;
+        }
+
+        .circle-3 {
+            position: absolute;
+            height: 8.8rem;
+            width: 8.8rem;
+            border-radius: 50%;
+            border: 3px solid rgba(84, 44, 104, 0.76);
+            right: 25.6rem;
+            top: 33rem;
+            overflow: hidden;
+        }
+
+        .circle-4 {
+            position: absolute;
+            height: 8rem;
+            width: 8rem;
+            border-radius: 50%;
+            border: 3px solid rgba(149, 132, 158, 0.63);
+            right: 26rem;
+            top: 33rem;
+            overflow: hidden;
+        }
+
+        .circle-4 span {
+            font-size: 12px;
+        }
+
+        .full-header {
+            background-color: rgb(39, 18, 46);
+            height: 47rem;
+            overflow: hidden;
+        }
+
+        .lists {
+            margin-left: 9rem;
+        }
+
+        .navigation {
+            margin-top: 1rem;
+        }
+
+        .contact-us-button {
+            background-color: rgb(150, 20, 187);
+            width: 1005;
+        }
+
+        .items {
+            font-size: .8rem;
+        }
+
+        .auditorium-img-div {
+            margin-top: 7rem;
+            height: 35rem;
+            overflow: hidden;
+        }
+
+        .auditorium-img {
+            position: relative;
+            left: -8rem;
+            height: 47rem;
+            overflow: hidden;
+        }
+
+        .header-span {
+            color: rgb(150, 20, 187);
+        }
+
+        .header-text-div {
+            position: relative;
+            top: -35rem;
+            left: 30rem;
+
+        }
+
+        .header-text {
+            font-size: 3.8rem;
+            letter-spacing: 0.2rem;
+            line-height: 4.1rem;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <section class="full-header">
+            <div class="circle-1">
+            </div>
+            <div class="circle-2">
+            </div>
+            <div class="circle-3">
+            </div>
+            <div class="circle-4 d-flex justify-content-center align-items-center">
+                <span class="text-white">Scroll Down <br>
+                    <i class="ms-4 fas fa-arrow-down"></i></span>
+
+            </div>
+            <div class="mx-5">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <div class="container-fluid navigation">
+                        <a class="navbar-brand text-white fs-2 me-5" href="#">Purple</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2  mb-lg-0 lists">
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-white  fw-light me-3 items" href="#">Help me chose</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white  fw-light me-3 items" href="#">ProGo Displays</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white fw-light me-3 items" href="#">Custom Exhibits</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white  fw-light me-3 items" href="#">Our process</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white  fw-light me-3 items" href="#">Why purple?</a>
+                                </li>
+
+                            </ul>
+                            <div class="d-flex justify-content-end">
+                                <button class="contact-us-button btn px-5 py-2 text-white rounded-pill me-3">Contact
+                                    us</button>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div>
+                <div class="auditorium-img-div">
+                    <img class="rounded-circle auditorium-img" src="images/auditorium.jfif" alt="">
+                </div>
+                <div class="header-text-div">
+                    <h1 class="text-white header-text">
+                        EXHIBIT <span class="header-span">LIKE A MASTER.</span>
+                        <br>
+                        WITHOUT A MASTER'S
+                        <br>
+                        IN EXHIBITS.
+                    </h1>
+                </div>
+            </div>
+        </section>
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+    <!-- bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
