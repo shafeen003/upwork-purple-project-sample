@@ -1,0 +1,207 @@
+body{
+    overflow-x: hidden;
+}
+
+.full-header {
+    background-color: rgb(39, 18, 46);
+    background-image: url(images/bg-circle.png);
+    background-position-x: 60em;
+    background-position-y: -5em;
+    background-size:32rem ;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    height: 47rem;
+    overflow: hidden;
+}
+
+.lists {
+    margin-left: 9rem;
+}
+
+.navigation {
+    margin-top: 1rem;
+}
+
+.contact-us-button {
+    background-color: rgb(150, 20, 187);
+    
+}
+
+.items {
+    font-size: .8rem;
+}
+
+.header-span {
+    color: rgb(150, 20, 187);
+}
+
+.cart-img-div{
+    height: 10em;
+    width: 10em;
+}
+.cart-img{
+    height: 15em;
+    width: 15em;
+}
+.cards{
+    background-color:  rgb(39, 18, 46);
+}
+@media only screen and (min-width: 600px) {
+    .auditorium-img-div {
+        margin-top: 7rem;
+        height: 35rem;
+        overflow: hidden;
+    }
+    .header-text-div {
+        position: relative;
+        top: -35rem;
+        left: 30rem;
+    
+    }
+    
+.header-text {
+    font-size: 3.8rem;
+    letter-spacing: 0.2rem;
+    line-height: 4.1rem;
+}
+    .auditorium-img {
+        position: relative;
+        left: -8rem;
+        height: 47rem;
+        overflow: hidden;
+    }
+    
+    .circle-2 {
+        position: absolute;
+        height: 17rem;
+        width: 17rem;
+        border-radius: 50%;
+        border: 3px solid rgba(84, 44, 104, 0.76);
+        right: 4rem;
+        top: 11rem;
+        overflow: hidden;
+    }
+    
+    .circle-3 {
+        position: absolute;
+        height: 8.8rem;
+        width: 8.8rem;
+        border-radius: 50%;
+        border: 3px solid rgba(84, 44, 104, 0.76);
+        right: 25.6rem;
+        top: 33rem;
+        overflow: hidden;
+    }
+    
+    .circle-4 {
+        position: absolute;
+        height: 8rem;
+        width: 8rem;
+        border-radius: 50%;
+        border: 3px solid rgba(149, 132, 158, 0.63);
+        right: 26rem;
+        top: 33rem;
+        overflow: hidden;
+    }
+    
+    .circle-4 span {
+        font-size: 12px;
+    }
+  .card-section{
+    margin-top: 5em;
+    margin-inline:11em ;
+}
+.memory{
+    height: 55rem;
+}
+.memory-image{
+    position: relative;
+}
+#memory-image-1{
+    width: 12rem;
+    top: -17rem;
+    left: 8rem;
+}
+#memory-image-2{
+    top: -6.9rem;
+    left: 3rem;
+}
+#img-memory-2{
+    width: 10rem;
+    width: 33rem;
+}
+#memory-image-3{
+    top: -53rem;
+    right: -67rem;
+    width: 8rem;
+}
+#memory-image-4{
+    right: -76.3rem;
+    width: 8rem;
+    top: -44rem;
+}
+#memory-image-5{
+    top: -37rem;
+    right: -51rem;
+    width: 17rem;
+}
+  }
+
+.card-p p{
+    line-height: 1.3rem;
+    font-size: .8rem;
+}
+.memory{
+    margin-top: 7rem;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    overflow-x: hidden;
+    
+}
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
+ .memory-image{
+     width: 65%;
+     margin-top: 2rem;
+     margin-inline: auto;
+
+ }
+ .auditorium-img{
+     display: none;
+ }
+ .logoes{
+     margin-inline: 1rem;
+ }
+ .header-text{
+     display: block;
+ }
+}
+.our-promise{
+    margin-top: 8rem;
+}
+.promise-hr{
+    height: 10px;
+    opacity: 1;
+}
+.promise-hr:not([size]) {
+    height: 1.9px;
+}
+.schedule-btn{
+    font-size: .8rem;
+    font-weight: 600;
+}
+.our-promise-img-div{
+    border-right: 6px solid rgb(150, 20, 187); ;
+    border-radius: 50%;
+    height: 100%;
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 0;
+}
+.our-promise-img{
+height: 100%;
+width: 100%;
+}
+
