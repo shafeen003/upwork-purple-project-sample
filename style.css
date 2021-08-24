@@ -3,13 +3,14 @@ body{
 }
 
 .full-header {
-    background-color: rgb(39, 18, 46);
+    /* background-image: linear-gradient(#1a121d,rgb(39, 18, 46)); */
+    background-color:#1a121d ;
     background-image: url(images/bg-circle.png);
     background-position-x: 60em;
     background-position-y: -5em;
     background-size:32rem ;
     background-repeat: no-repeat;
-    background-blend-mode: overlay;
+    background-blend-mode:saturation;
     height: 47rem;
     overflow: hidden;
 }
