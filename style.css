@@ -189,7 +189,8 @@ body{
     height: 1.9px;
 }
 .schedule-btn{
-    font-size: .8rem;
+    padding-block: 0.85rem;
+    font-size: .85rem;
     font-weight: 600;
 }
 .our-promise-img-div{
@@ -204,4 +205,193 @@ body{
 height: 100%;
 width: 100%;
 }
+.testimonials{
+    margin-top: 12rem;
+    background-color: rgb(39, 18, 46);
+    margin-inline: 4rem;
+    
+}
+.testimonail-div{
+    padding-block: 9rem;
+    background-image: url(images/inverted-comma.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15rem;
+}
+.testimonail-div h1{
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+.testimonail-div p{
+    font-size: 1.5rem;
+    line-height: .3rem;
+    margin-top: 1.7rem;
+    font-weight: 300;
+}
+.testimonial-img{
+    height: auto;
+    width: 6%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.money{
+    margin-top: 18rem;
+    margin-bottom: 20rem;
+}
+.money-img-div{
+    border-right: 2px solid rgb(150, 20, 187);
+    border-radius: 50%;
+    height: 21.5rem;
+    width: 22rem;
+    overflow: hidden;
+    margin-left: 7rem;
+    transform: rotate(37deg);
+}
+.money-img{
+    border-radius: 50%;
+    height: 100%;
+    width: 94%;
+    overflow: hidden;
+    transform: rotate(-37deg);
+}
+.money-img img{
+    height: 100%;
+    width: 100%;
+}
+.money-texts{
+    margin-top: 2rem;
+    margin-left: 12rem;
+}
+.cemi-colone{
+    font-size: 10rem;
+    line-height: 1.5rem;
+}
+.money-narration h1{
+    font-size: 3.8rem;
+    font-weight: 800;
+    line-height: 3.9rem;
+}
+.money-spech{
+    margin-left: 1rem;
+}
+.money-spech h2{
+font-weight: 700;
+}
+.money-texts p{
+    font-size: 1.24rem;
+    font-weight: 400;
+}
+.money-texts h6{
+    font-weight: bold;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+.nav-item:hover{
+    transform: scale(1.18);
+}
+.contact-us-button:hover{
+    transform: scale(1.18);
+}
+.show{
+    background-image: linear-gradient(rgb(39, 18, 46),#1a121d);
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+}
+.purple-show{
+    background-image: radial-gradient( #32123c 40%,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50em;
+}
+.purple-show h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+    margin-bottom: .6em;
+}
+.purple-show h6{
+    font-size: 1.68em;
+    line-height: 0.99em;
+    font-weight: 300;
+}
+.purple-show div{
+    margin-top: 3em;
+}
+.purple-monent{
+    margin-top: 20rem;
 
+}
+.purple-moment-circle{
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 14rem;
+    width: 14rem;
+}
+.purple-momnet-text {
+    margin-top: 7.5rem;
+}
+
+
+.purple-momnet-text p{
+    font-size: 1.25em;
+    letter-spacing: .05em;
+    font-weight: 300;
+    line-height: 1.4em;
+
+}
+.purple-momnet-text h5{
+    font-size: 1.48em;
+}
+.privacy-policy{
+    margin-top: 9rem;
+    margin-bottom: 24rem;
+}
+.footer-text{
+    font-size: 1.6rem;
+    font-size: 1.6rem;
+    color: #000000b5;
+}
+
+.policy h3, .new-join{
+    font-size: 1.56rem;
+    font-weight: 700;
+}
+.policy li{
+    margin-bottom: 1rem;
+    list-style: none;
+}
+.policy li a{
+    text-decoration: none;
+    color: black;
+}
+
+.your-mail input{
+    border: 0;
+    color: black;
+    width: 90%;  
+}
+.your-mail span{
+    color: rgb(0 0 0 / 56%);
+}
+.your-mail{
+    border-bottom:2px solid #0000006e;
+}
+footer hr{
+    border-top: 2px solid black;
+}
+.my-profile{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.terms-cond{
+    text-decoration: none;
+    color: black;
+    font-size: .9rem;
+}
+.social a{
+    text-decoration: none;
+    color: #000000cc;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
